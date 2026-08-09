@@ -1,42 +1,58 @@
 class Solution {
-    public int largestRectangleArea(int[] heights) {
+    public int largestRectangleArea(int[] arr) {
+         int n = arr.length;
+
+        int[] next = nextSmallerEle(arr , n);
+        int[] prev = prevSmallerElement(arr , n);
+        int area = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            int l = arr[i];
+
+            if (next[i] == -1){
+                next[i] = n;
+            }
+            int w = next[i] - prev[i] - 1 ;
+
+            int newArea = l * w;
+            area = Math.max(area , newArea);
+        }
+        return area;
+    }
+
+     int[] prevSmallerElement(int[] arr, int n) {
 
         Stack<Integer> stack = new Stack<>();
-        int max = 0;
+        stack.push(-1);
 
-        stack.push(0);
+        int[] ans = new int[arr.length];
 
-        for (int i = 1; i < heights.length; i++) {
-
-            while (!stack.isEmpty() && heights[i] < heights[stack.peek()]) {
-                max = getMax(heights, stack, max, i);
+        for (int i = 0 ; i < arr.length ; i++) {
+            int curr = arr[i];
+            while (stack.peek() != -1 && arr[stack.peek()] >= curr){
+                stack.pop();
             }
-
+            ans[i] = stack.peek();
             stack.push(i);
-
         }
-
-        int i = heights.length;
-        while (!stack.isEmpty()) {
-            max = getMax(heights, stack, max, i);
-        }
-
-        return max;
+        return ans;
 
     }
 
-    private static int getMax(int[] heights, Stack<Integer> stack, int max, int i) {
+     int[] nextSmallerEle(int[] arr, int n) {
 
-        int area;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(-1);
 
-        int popped = stack.pop();
-        if (stack.isEmpty()) {
-            area = heights[popped] * i;
-        } else {
-            area = heights[popped] * (i - 1 - stack.peek());
+        int[] ans = new int[arr.length];
+
+        for (int i = arr.length - 1; i >= 0; i--) {
+            int curr = arr[i];
+            while (stack.peek() != -1 && arr[stack.peek()] >= curr){
+                stack.pop();
+            }
+            ans[i] = stack.peek();
+            stack.push(i);
         }
-
-        return Math.max(max, area);
-
+        return ans;
     }
 }
