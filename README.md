@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/skushavaha/leetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0084-largest-rectangle-in-histogram](https://github.com/skushavaha/leetCode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0485-max-consecutive-ones](https://github.com/skushavaha/leetCode/tree/master/0485-max-consecutive-ones) |
 ## Stack
 |  |
 | ------- |
