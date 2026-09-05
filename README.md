@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/skushavaha/leetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0485-max-consecutive-ones](https://github.com/skushavaha/leetCode/tree/master/0485-max-consecutive-ones) |
 | [3903-smallest-stable-index-i](https://github.com/skushavaha/leetCode/tree/master/3903-smallest-stable-index-i) |
+| [3904-smallest-stable-index-ii](https://github.com/skushavaha/leetCode/tree/master/3904-smallest-stable-index-ii) |
 ## Stack
 |  |
 | ------- |
@@ -48,4 +49,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3903-smallest-stable-index-i](https://github.com/skushavaha/leetCode/tree/master/3903-smallest-stable-index-i) |
+| [3904-smallest-stable-index-ii](https://github.com/skushavaha/leetCode/tree/master/3904-smallest-stable-index-ii) |
 <!---LeetCode Topics End-->
