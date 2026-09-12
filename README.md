@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/skushavaha/leetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0084-largest-rectangle-in-histogram](https://github.com/skushavaha/leetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0485-max-consecutive-ones](https://github.com/skushavaha/leetCode/tree/master/0485-max-consecutive-ones) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/skushavaha/leetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3903-smallest-stable-index-i](https://github.com/skushavaha/leetCode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/skushavaha/leetCode/tree/master/3904-smallest-stable-index-ii) |
 ## Stack
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/skushavaha/leetCode/tree/master/0509-fibonacci-number) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/skushavaha/leetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Recursion
 |  |
 | ------- |
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/skushavaha/leetCode/tree/master/0004-median-of-two-sorted-arrays) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/skushavaha/leetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -50,4 +53,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3903-smallest-stable-index-i](https://github.com/skushavaha/leetCode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/skushavaha/leetCode/tree/master/3904-smallest-stable-index-ii) |
+## Sorting
+|  |
+| ------- |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/skushavaha/leetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 <!---LeetCode Topics End-->
